@@ -23,6 +23,7 @@ const resolvers = {
 app.register(mercurius, {
   schema,
   resolvers,
+  jit: 1, // After `n` requests (whatever you have set here), we start losing the spans after the JIT occurs
 });
 
 app.get("/", async function (req, reply) {
