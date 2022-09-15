@@ -1,0 +1,9 @@
+{
+  "name": "dd-trace-fastify-app",
+  "packageManager": "yarn@3.2.3",
+  "dependencies": {
+    "fastify": "^4.6.0",
+    "graphql": "^16.6.0",
+    "mercurius": "^11.0.0"
+  }
+}
