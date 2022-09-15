@@ -1,9 +1,15 @@
 {
   "name": "dd-trace-fastify-app",
   "packageManager": "yarn@3.2.3",
+  "scripts": {
+    "start": "DD_TRACE_DEBUG=true node src/server.js"
+  },
   "dependencies": {
     "fastify": "^4.6.0",
     "graphql": "^16.6.0",
     "mercurius": "^11.0.0"
+  },
+  "devDependencies": {
+    "dd-trace": "^3.3.0"
   }
 }

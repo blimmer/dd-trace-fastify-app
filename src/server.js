@@ -1,4 +1,7 @@
 "use strict";
+// must be first
+const datadog = require("dd-trace");
+datadog.init({});
 
 const Fastify = require("fastify");
 const mercurius = require("mercurius");
