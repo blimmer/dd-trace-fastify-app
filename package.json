@@ -5,7 +5,7 @@
     "start": "DD_TRACE_DEBUG=true node src/server.js"
   },
   "dependencies": {
-    "fastify": "^4.6.0",
+    "fastify": "^4.10.2",
     "graphql": "^16.6.0",
     "mercurius": "^11.0.0"
   },
