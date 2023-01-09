@@ -7,7 +7,7 @@
   "dependencies": {
     "fastify": "^4.6.0",
     "graphql": "^16.6.0",
-    "mercurius": "^11.0.0"
+    "mercurius": "^11.5.0"
   },
   "devDependencies": {
     "dd-trace": "^3.3.0"
